@@ -1,0 +1,45 @@
+.div{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+
+}
+
+h1{
+    color: black;
+    margin: 20px 0px 40px;
+    font-size: 75px;
+}
+
+h3{
+    color: black;
+    font-size: 70px;
+    margin-bottom: 50px;
+}
+
+h4{
+    color: black;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+span{
+    color:#FFDF00;
+}
+.latter{
+    padding-left: 350px;
+}
+.btn{
+    background-color: #FFDF00;
+    color: black;
+    text-decoration: none;
+    border: 2px solid;
+    font-weight: bold;
+    padding: 10p 25px;
+    border-radius: 30px;
+    transition: transform .6s;
+}
+
+.btn:hover{
+    transform: scale(1.2);
+}
