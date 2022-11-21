@@ -1,14 +1,24 @@
+
 .div{
     position: absolute;
-    top: 50%;
-    left: 8%;
+    top: 20%;
+    left: 40%;
     transform: translateY(-50%);
 
 }
 
+.container{
+    display: inline-flex;
+    position: absolute;
+    top: 30%;
+    left: 45%;
+}
+
+.container .estatico{}
+
 h1{
     color: black;
-    margin: 20px 0px 40px;
+    margin: 30px 40px 40px;
     font-size: 75px;
 }
 
@@ -22,6 +32,7 @@ h4{
     color: black;
     letter-spacing: 2px;
     font-size: 20px;
+    animation-duration: 4s;
 }
 span{
     color:#FFDF00;
@@ -42,4 +53,9 @@ span{
 
 .btn:hover{
     transform: scale(1.2);
+}
+
+.img{
+    width: 50px;
+    height: 50px;
 }
