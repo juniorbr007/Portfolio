@@ -1,13 +1,34 @@
-html {
-    scroll-behavior: smooth;
+body{
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    
 }
 
-.icon{
-    color: #FFDF00;
-    width: 20px;
-    height: 40px;
+section {
+    font-size: 30px;
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 100vh;
+    color: #ffff;
+    font-family: 'Poppins', sans-serif;
 }
 
+.hidden{
+    filter: blur(5px);
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: all 2s;
+}
+
+
+.show{
+    filter: blur(0px);
+    opacity: 1;
+    transform: translateX(0);
+
+}
 .dourado{
     color: #FFDF00;
 }
