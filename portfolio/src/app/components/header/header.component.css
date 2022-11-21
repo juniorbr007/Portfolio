@@ -1,6 +1,3 @@
-.div{
-    position: fixed;
-    transform: translateY(-50%);
-    width: 30px;
-
+.radius{
+    border-radius: 10%;
 }
